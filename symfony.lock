@@ -35,6 +35,12 @@
     "blackfire/php-sdk": {
         "version": "v1.23.0"
     },
+    "clue/block-react": {
+        "version": "v1.4.0"
+    },
+    "clue/ndjson-react": {
+        "version": "v1.1.0"
+    },
     "clue/stream-filter": {
         "version": "v1.4.1"
     },
@@ -49,6 +55,9 @@
     },
     "dnoegel/php-xdg-base-dir": {
         "version": "v0.1.1"
+    },
+    "evenement/evenement": {
+        "version": "v3.0.1"
     },
     "felixfbecker/advanced-json-rpc": {
         "version": "v3.1.1"
@@ -77,11 +86,53 @@
     "guzzlehttp/psr7": {
         "version": "1.6.1"
     },
+    "hoa/compiler": {
+        "version": "3.17.08.08"
+    },
+    "hoa/consistency": {
+        "version": "1.17.05.02"
+    },
+    "hoa/event": {
+        "version": "1.17.01.13"
+    },
+    "hoa/exception": {
+        "version": "1.17.01.16"
+    },
+    "hoa/file": {
+        "version": "1.17.07.11"
+    },
+    "hoa/iterator": {
+        "version": "2.17.01.10"
+    },
+    "hoa/math": {
+        "version": "1.17.05.16"
+    },
+    "hoa/protocol": {
+        "version": "1.17.01.14"
+    },
+    "hoa/regex": {
+        "version": "1.17.01.13"
+    },
+    "hoa/stream": {
+        "version": "1.17.02.21"
+    },
+    "hoa/ustring": {
+        "version": "4.17.01.16"
+    },
+    "hoa/visitor": {
+        "version": "2.17.01.16"
+    },
+    "hoa/zformat": {
+        "version": "1.17.01.10"
+    },
     "http-interop/http-factory-guzzle": {
         "version": "1.0.0"
     },
     "jean85/pretty-package-versions": {
         "version": "1.5.1"
+    },
+    "jetbrains/phpstorm-stubs": {
+        "version": "dev-master"
     },
     "laminas/laminas-zendframework-bridge": {
         "version": "1.1.1"
@@ -92,6 +143,30 @@
     "netresearch/jsonmapper": {
         "version": "v2.1.0"
     },
+    "nette/bootstrap": {
+        "version": "v3.0.2"
+    },
+    "nette/di": {
+        "version": "v3.0.5"
+    },
+    "nette/finder": {
+        "version": "v2.5.2"
+    },
+    "nette/neon": {
+        "version": "v3.2.1"
+    },
+    "nette/php-generator": {
+        "version": "v3.4.1"
+    },
+    "nette/robot-loader": {
+        "version": "v3.3.1"
+    },
+    "nette/schema": {
+        "version": "v1.0.2"
+    },
+    "nette/utils": {
+        "version": "v3.1.3"
+    },
     "nikic/php-parser": {
         "version": "v4.4.0"
     },
@@ -100,6 +175,12 @@
     },
     "ocramius/proxy-manager": {
         "version": "2.2.3"
+    },
+    "ondram/ci-detector": {
+        "version": "3.5.1"
+    },
+    "ondrejmirtes/better-reflection": {
+        "version": "4.3.30"
     },
     "openlss/lib-array2xml": {
         "version": "1.0.0"
@@ -137,13 +218,19 @@
     "phpdocumentor/type-resolver": {
         "version": "1.4.0"
     },
+    "phpstan/phpdoc-parser": {
+        "version": "0.4.9"
+    },
+    "phpstan/phpstan-src": {
+        "version": "0.12.45"
+    },
+    "phpstan/phpstan-symfony": {
+        "version": "0.12.7"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
     "psr/container": {
-        "version": "1.0.0"
-    },
-    "psr/event-dispatcher": {
         "version": "1.0.0"
     },
     "psr/http-client": {
@@ -160,6 +247,42 @@
     },
     "ralouphie/getallheaders": {
         "version": "3.0.3"
+    },
+    "react/cache": {
+        "version": "v1.1.0"
+    },
+    "react/child-process": {
+        "version": "v0.6.1"
+    },
+    "react/dns": {
+        "version": "v1.4.0"
+    },
+    "react/event-loop": {
+        "version": "v1.1.1"
+    },
+    "react/http": {
+        "version": "v1.1.0"
+    },
+    "react/promise": {
+        "version": "v2.8.0"
+    },
+    "react/promise-stream": {
+        "version": "v1.2.0"
+    },
+    "react/promise-timer": {
+        "version": "v1.6.0"
+    },
+    "react/socket": {
+        "version": "v1.6.0"
+    },
+    "react/stream": {
+        "version": "v1.1.1"
+    },
+    "ringcentral/psr7": {
+        "version": "1.3.0"
+    },
+    "roave/signature": {
+        "version": "1.0.0"
     },
     "sebastian/diff": {
         "version": "4.0.2"
@@ -202,6 +325,9 @@
         "files": [
             "bin/console"
         ]
+    },
+    "symfony/debug": {
+        "version": "v4.4.14"
     },
     "symfony/dependency-injection": {
         "version": "v5.1.0-rc1"
@@ -293,12 +419,6 @@
     "symfony/polyfill-ctype": {
         "version": "v1.17.0"
     },
-    "symfony/polyfill-intl-grapheme": {
-        "version": "v1.17.0"
-    },
-    "symfony/polyfill-intl-normalizer": {
-        "version": "v1.17.0"
-    },
     "symfony/polyfill-mbstring": {
         "version": "v1.17.0"
     },
@@ -338,9 +458,6 @@
         "version": "v2.0.1"
     },
     "symfony/stopwatch": {
-        "version": "v5.1.0-rc1"
-    },
-    "symfony/string": {
         "version": "v5.1.0-rc1"
     },
     "symfony/translation": {
